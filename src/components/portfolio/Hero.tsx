@@ -159,11 +159,11 @@ export default function Hero() {
             </div>
 
             {/* Main Profile Image */}
-            <div className="w-80 h-100 md:w-96 md:h-96 rounded-3xl shadow-2xl border-4 border-white overflow-hidden animate-float-gentle z-10">
+            <div className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-3xl shadow-2xl border-4 border-white overflow-hidden animate-float-gentle z-10">
               <img
                 src="https://raw.githubusercontent.com/ashwin-pawar/Achievements-and-Certifications/main/Profile_img/profilr_img.jpg"
                 alt="Ashwin Pawar"
-                className="w-full object-cover h-[483px]"
+                className="w-full object-cover"
               />
             </div>
           </div>
