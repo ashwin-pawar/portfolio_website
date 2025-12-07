@@ -159,7 +159,12 @@ export default function Hero() {
             </div>
 
             {/* Main Profile Image */}
-            <div className="w-80 h-100 md:w-96 md:h-96 rounded-3xl shadow-2xl border-4 border-white overflow-hidden animate-float-gentle z-10">
+            <div className="  w-48 h-48          /* 📱 Mobile */
+                              sm:w-64 sm:h-64    /* 📱 Tablet */
+                              lg:w-80 lg:h-[100] /* 💻 Laptop */
+                              xl:w-96 xl:h-96    /* 🖥️ Big Screens */
+                              rounded-3xl shadow-2xl border-4 border-white 
+                              overflow-hidden animate-float-gentle z-10">
               <img
                 src="https://raw.githubusercontent.com/ashwin-pawar/Achievements-and-Certifications/main/Profile_img/profilr_img.jpg"
                 alt="Ashwin Pawar"
