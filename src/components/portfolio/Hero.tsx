@@ -75,8 +75,7 @@ export default function Hero() {
                 </h2>
               </div>
             </div>
-
-            <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed w-[665px]">
+            <p className="text-lg md:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed w-full">
               I focus on understanding data deeply—cleaning it, exploring it and
               finding patterns that actually matter. Using Python, SQL and Power
               BI, I build dashboards that are clean, accurate and easy to
@@ -85,7 +84,7 @@ export default function Hero() {
               tells a meaningful story.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 w-full max-w-md mx-auto lg:mx-0">
               <Button
                 size="lg"
                 onClick={scrollToProjects}

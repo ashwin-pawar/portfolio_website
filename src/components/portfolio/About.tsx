@@ -75,10 +75,11 @@ export default function About() {
             className={`space-y-6 transition-all duration-700 delay-200 ${
               isVisible
                 ? "opacity-100 translate-x-0"
-                : "opacity-0 -translate-x-10 h-[416px]"
+                : "opacity-0 -translate-x-10"
             }`}
           >
-            <div className="prose prose-lg max-w-none w-[642px] h-[205px]">
+           
+            <div className="prose prose-lg max-w-full w-full">
               <p className="text-slate-600 leading-relaxed text-lg">
                 I'm a passionate Data Analyst with a strong foundation in
                 transforming complex datasets into clear, actionable insights.
