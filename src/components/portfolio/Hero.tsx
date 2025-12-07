@@ -106,7 +106,7 @@ export default function Hero() {
           </div>
 
           {/* Profile Image with Floating Data Elements */}
-          <div className="relative hidden lg:flex items-center justify-center">
+          <div className="relative flex items-center justify-center mt-10 lg:mt-0">
             {/* Floating Data Elements */}
 
             {/* Bar Chart - Top Left */}
